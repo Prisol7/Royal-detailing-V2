@@ -1,0 +1,32 @@
+.reviewcard{
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.reviewitem{
+    width:60%;
+    height: 250px;
+    
+}
+.Tiktok{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .reviewcard{
+        height: 300px;
+        width: 100%;        
+        display: flex;
+    }
+    .reviewitem{
+        width:100%;
+    }
+    .Tiktok{
+        width:100%;
+    }
+}

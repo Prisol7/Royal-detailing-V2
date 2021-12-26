@@ -1,0 +1,18 @@
+.speeddial{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    visibility: hidden;
+
+}
+
+@media screen and (max-width: 800px) {
+    .speeddial{
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 10px;
+        visibility: visible
+    }
+}

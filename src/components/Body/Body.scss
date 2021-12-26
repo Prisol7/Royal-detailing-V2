@@ -1,0 +1,51 @@
+.cont {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.paper1 {
+    width: 60%;
+    height: 400px;
+    margin: 20px;
+    
+    
+}
+.paper2 {
+    width: 30%;
+    height: 400px;
+    margin: 20px;
+    
+}
+
+
+.carimage{
+    width: 90%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .cont{
+        height: 1000px;
+    }
+    .paper {
+        width: 100%;
+        height: 500px;
+       
+    }
+    .paper1 {
+        margin-bottom: 30px;
+       
+    }
+    .paper3 {
+        margin-top: 50px;   
+    }
+    .carimage{
+        width: 100%;
+        height: 70%;
+    }
+    
+}
