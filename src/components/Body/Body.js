@@ -23,7 +23,7 @@ const Body = () => {
             </div>
             <div className='paper2 paper'>
                 <Typography variant='h4'>
-                    Ultimatedeal Pachage
+                    Ultimate deal Package
                 </Typography>
                 <Typography variant='h5' >
                     $350 
